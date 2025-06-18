@@ -1,0 +1,31 @@
+#landing {
+  position: relative;
+  height: 100vh;
+  background-image: url("/Images/landing.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+#landing::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: inherit;
+  filter: brightness(13%);
+  z-index: 1;
+}
+
+#landing h1 {
+  margin-top: 3rem;
+  position: relative;
+  z-index: 1;
+}
+
+#landing button {
+  position: relative;
+  z-index: 1;
+}

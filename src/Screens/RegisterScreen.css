@@ -1,0 +1,10 @@
+#reg {
+  background-image: url("/Images/reg.jpg");
+  background-size: cover;
+  background-position: bottom;
+  height: 100vh;
+}
+
+#form {
+  background-color: white;
+}
